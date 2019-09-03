@@ -1,0 +1,309 @@
+@media (max-width: 991px){
+    .main-menu-area {
+        padding: 0px 0px;
+    }
+    .navbar-light .navbar-brand {
+        padding: 20px 0px 20px 15px;
+    }
+    .main-menu-area .navbar .navbar-nav li {
+        display: block;
+        margin-right: 0px;
+    }
+    .main-menu-area .navbar .navbar-nav li a {
+        display: block;
+        line-height: 50px;
+        padding: 0px 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, .05);
+        color: #fff;
+    }
+    .main-menu-area .navbar .navbar-nav li:hover a, .main-menu-area .navbar .navbar-nav li.active a {
+        color: #97ccfe;
+    }
+    .main-menu-area .navbar .navbar-nav li a:focus{
+        color: #97ccfe;
+    }
+    .main-menu-area .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        color: #97ccfe;
+    }
+    .main-menu-area .navbar .navbar-nav {
+        display: block;
+        text-align: left;
+    }
+    .main-menu-area .navbar .navbar-collapse {
+        background: rgba(0, 0, 0, 1);
+        position: absolute;
+        width: 100%;
+        top: 100%;
+    }
+    .main-menu-area .navbar .navbar-toggler {
+        padding: 0px 15px 0px 0px;
+        cursor: pointer;
+    }
+    .main-menu-area .navbar .navbar-nav li.submenu .dropdown-menu {
+        background: transparent;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main-menu-area .navbar .navbar-nav li.submenu .dropdown-menu li a {
+        line-height: 50px;
+        padding: 0px 20px;
+    }
+  
+    
+}
+@media (max-width: 767px){
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .parallax-section {
+        height: 70vh;
+    }
+    .single-slider .slide-wrap {
+        margin-top: 75px;
+    }
+    .slide-wrap h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .area-content h2 {
+        font-size: 38px;
+        line-height: 1.1;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+    .blog-area .card {
+        margin-bottom: 30px;
+    }
+    .card-author-info {
+        font-size: 13px;
+    }
+    .card-author-info {
+        margin-bottom: 0;
+    }
+    .card-author{
+        margin-bottom: 15px;
+    }
+    .single-review {
+        padding: 60px 30px 25px 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    .single-counter {
+        margin-bottom: 30px;
+    }
+    .countDown-area .row {
+        margin-bottom: -30px;
+    }
+    .area-content h2 {
+        font-size: 32px;
+    }
+    .cta-area h2 {
+        line-height: 1.2;
+        font-size: 32px;
+    }
+    .social-share li a{
+        margin-right: 10px;
+    }
+    .cta-form button{
+        right: 13px;
+    }
+    .author-info h4 {
+        font-size: 18px;
+    }
+    .single-review p i {
+        font-size: 70px;
+        left: -41px;
+        top: -32px;
+    }
+    .area-content a {
+        margin-top: 5px;
+    }
+    .single-review {
+        padding: 50px 20px 20px 57px;
+    }
+    .service-area .card i:before {
+        margin: 0 0 0;
+        font-size: 30px;
+    }
+    .service-area .card-title {
+        margin: 10px 0 5px;
+        font-size: 18px;
+    }
+    .slide-wrap h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .slide-wrap .btn {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .single-slider .slide-wrap {
+        margin-top: 105px;
+    }
+    .slider-section.owl-carousel, .parallax-section {
+        height: 500px;
+    }
+    
+    
+}
+@media (max-width: 575px){
+    .slide-wrap h1, 
+    .slider .slide-wrap h1, 
+    .parallax .slide-wrap h1 
+    {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .single-slider .slide-wrap {
+        margin-top: 75px;
+    }
+    .parallax-section {
+        height: 410px;
+    }
+    .slide-wrap .btn {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    ul {
+        padding-left: 0;
+      }
+      .service-area ul li {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+    .service-area ul li:nth-child(2) {
+        margin-top: 0;
+    }
+    .service-area ul li:nth-child(3) {
+        margin-top: 0;
+    }
+    .pl-0, .px-0 {
+        padding-left: 15px !important;
+    }
+    .pr-0, .px-0 {
+        padding-right: 15px !important;
+    }
+    .area-content h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .t-caption {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .area-content {
+        text-align: center;
+    }
+    .area-content a {
+        margin-top: 15px;
+    }
+    .single-counter {
+        display: inherit;
+        text-align: center;
+    }
+    .count-icon {
+        margin-right: 0;
+        margin: 30px auto 15px;
+    }
+    .count-info h2 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .single-review {
+        padding: 30px;
+    }
+    .single-review p i {
+        font-size: 210px;
+        left: 0;
+        top: 0;
+    }
+    .author-info h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .review-wraper.owl-carousel .review-author img {
+        width: 50px;
+        height: 50px;
+    }
+    .blog-area .card {
+        margin-bottom: 30px;
+    }
+    .card-author-info {
+        font-size: 13px;
+    }
+    .card-author-info {
+        margin-bottom: 0;
+    }
+    .card-author{
+        margin-bottom: 15px;
+    }
+    .bd-callout {
+        padding: 30px;
+        display: inherit;
+    }
+    .location-map img {
+        min-height: 235px;
+    }
+    .bd-callout p,
+    .bd-callout h4 {
+        float: none;
+        width: 100%;
+    }
+    .fooetr-widget h5 {
+        margin: 30px 0 10px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .owl-dots {
+        display: none;
+    }
+
+    .cta-area h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    .content-img {
+        margin-bottom: 50px;
+    }
+    .about-area .content-img {
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+    .owl-nav {
+        margin-top: 15px;
+    }
+    .owl-nav button {
+        margin: 0 3px;
+    }
+     br {
+        display: none;
+    }
+}
+@media (max-width: 480px){
+  
+}
